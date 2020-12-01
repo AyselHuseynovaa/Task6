@@ -1,0 +1,92 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-image: url(../img/shalini-poosarla-liMAs6dGYS8-unsplash.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  color: white;
+  text-decoration: none;
+  font-family: Arial, Helvetica, sans-serif;
+}
+#webpage {
+  header {
+    .row {
+      padding: 10px;
+      margin: 0px;
+      flex-wrap: nowrap;
+      .left-col {
+        .container1 {
+          width: 18rem;
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+          align-items: center;
+          .logo {
+            p {
+              font-size: 30px;
+              font-weight: 300;
+              border: 2px solid white;
+              padding: 15px 20px;
+            }
+          }
+        }
+      }
+      .right-col {
+        .container2 {
+          display: flex;
+          flex-direction: row;
+          justify-content: flex-end;
+          align-items: center;
+          img {
+            padding-top: 20px;
+            margin-right: 25px;
+            &:nth-child(2) {
+              margin-right: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  main {
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    .content1 {
+      height: 400px;
+      text-align: center;
+      h1 {
+        font-size: 65px;
+        font-weight: 600;
+      }
+
+      p {
+        font-size: 18px;
+      }
+
+      .btn {
+        a {
+          color: black;
+          font-size: 12px;
+        }
+        border: 1px solid white;
+        background-color: white;
+        border-radius: 25px;
+        padding-left: 25px;
+        padding-right: 25px;
+      }
+    }
+    .content2 {
+      height: 400px;
+      display: flex;
+      flex-direction: row;
+      align-items: flex-end;
+      justify-content: space-around;
+    }
+  }
+}
